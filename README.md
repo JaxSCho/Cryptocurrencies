@@ -9,7 +9,7 @@ The following deliverables include:
 
 1. Preprocessing the Data for Principal Component Analysis (PCA) using Pandas:
     - Keep all cryptocurrencies that are being traded and mined
-    - Remove rows that have at least 1 null values
+    - Remove rows that have at least 1 null value
     - Drop the IsTrading and CoinName columns that won't be used on the clustering algorithm
     - Create dummy variables for the two text features: Algorithm and ProofType
     - Use StandardScaler to standardized the features
